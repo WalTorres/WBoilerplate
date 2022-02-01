@@ -1,0 +1,69 @@
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  font: var(--base-font);
+  background-color: var(--body-bg);
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font: var(--head-line-1);
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
